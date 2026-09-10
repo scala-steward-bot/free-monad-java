@@ -1,7 +1,7 @@
 package free;
 
 /**
- * http://eed3si9n.com/learning-scalaz/ja/Free+Monad.html
+ * https://eed3si9n.com/learning-scalaz/ja/Free+Monad.html
  */
 abstract class CharToy<A> implements _1<CharToy.z, A>{
   public abstract <Z> Z fold(F2<Character, A, Z> output, F1<A, Z> bell, Z done);
